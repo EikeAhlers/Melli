@@ -125,7 +125,8 @@
 
 /* Shoe Size */
 .container .card .contentBx .size,
-.container .card .contentBx .color {
+
+.container .card .contentBx .color {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -148,7 +149,8 @@
 }
 
 .container .card .contentBx .size h3,
-.container .card .contentBx .color h3 {
+
+.container .card .contentBx .color h3 {
     color: #fff;
     font-weight: 300;
     font-size: 14px;
@@ -252,10 +254,4 @@
 
 .info:hover + .text {
     display: block;
-}
-
-@media (max-width:575px) {
-    .item {
-        margin-bottom: 30px;
-    }
 }
