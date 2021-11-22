@@ -8039,7 +8039,7 @@ textarea.form-control-lg {
   z-index: 0; }
 
 .poster:before {
-  background-image: url(../assets/images/Cupcake.jpg) !important;
+  background-image: url(https://images.unsplash.com/photo-1600411833196-7c1f6b1a8b90?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fGluZG9vciUyMHBsYW50fGVufDB8fHx8MTYyNTQzMzc1Ng&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=1000&h=1360&fit=crop) !important;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -8053,6 +8053,10 @@ textarea.form-control-lg {
 
 body.poster:before {
   position: fixed; }
+
+@media (min-width: 1440px), (min-width: 992px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 992px) and (min-resolution: 192dpi) {
+  .poster:before {
+    background-image: url(https://images.unsplash.com/photo-1600411833196-7c1f6b1a8b90?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDF8fGluZG9vciUyMHBsYW50fGVufDB8fHx8MTYyNTQzMzc1Ng&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=2000&fit=crop) !important; } }
 
 body, html {
   min-height: 100vh; }
