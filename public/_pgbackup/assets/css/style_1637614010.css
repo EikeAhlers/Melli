@@ -21,11 +21,11 @@ a:hover {
 }
 
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Raleway", sans-serif;
 }
 
@@ -198,26 +198,26 @@ h1,
 }
 
 .nav-menu a:hover,
-.nav-menu .active > a,
-.nav-menu li:hover > a {
+.nav-menu .active > a,
+.nav-menu li:hover > a {
     color: #fff;
     background: #0563bb;
 }
 
 .nav-menu a:hover span,
-.nav-menu .active > a span,
-.nav-menu li:hover > a span {
+.nav-menu .active > a span,
+.nav-menu li:hover > a span {
     color: #fff;
 }
 
 .nav-menu a:hover,
-.nav-menu li:hover > a {
+.nav-menu li:hover > a {
     width: 100%;
     color: #fff;
 }
 
 .nav-menu a:hover span,
-.nav-menu li:hover > a span {
+.nav-menu li:hover > a span {
     display: block;
 }
 
@@ -550,6 +550,15 @@ section {
 /* --------------------------------------------------------------
 # Portfolio
 -------------------------------------------------------------- */
+@media (max-width:575px) {
+    .portfolio .portfolio-item {
+        margin-bottom: 30px;
+        padding-right: 0;
+        padding-left: 0;
+        zoom: 0.5;
+    }
+}
+
 .portfolio #portfolio-flters {
     padding: 0;
     margin: 0 auto 25px auto;
@@ -574,7 +583,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover,
-.portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li.filter-active {
     color: #0563bb;
 }
 
@@ -865,7 +874,7 @@ section {
 }
 
 .testimonials .testimonial-item .quote-icon-left,
-.testimonials .testimonial-item .quote-icon-right {
+.testimonials .testimonial-item .quote-icon-right {
     color: #90c8fc;
     font-size: 26px;
 }
@@ -889,7 +898,7 @@ section {
 }
 
 .testimonials .owl-nav,
-.testimonials .owl-dots {
+.testimonials .owl-dots {
     margin-top: 5px;
     text-align: center;
 }
@@ -951,13 +960,13 @@ section {
 }
 
 .contact .info .email,
-.contact .info .phone {
+.contact .info .phone {
     margin-top: 40px;
 }
 
 .contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
     background: #0563bb;
     color: #fff;
 }
@@ -1022,7 +1031,7 @@ section {
 }
 
 .contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .php-email-form textarea {
     border-radius: 4px;
     box-shadow: none;
     font-size: 14px;
@@ -1083,7 +1092,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-nav,
-.portfolio-details .portfolio-details-carousel .owl-dots {
+.portfolio-details .portfolio-details-carousel .owl-dots {
     margin-top: 5px;
     text-align: center;
 }
