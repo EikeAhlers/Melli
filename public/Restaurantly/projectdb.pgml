@@ -1,0 +1,40 @@
+<project>
+    <documents></documents>
+    <dmdesigns>
+        <dmdesign>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="rgb(39,95,147)"/>
+                <dmcolor key="secondary" color="rgb(21,57,104)"/>
+                <dmcolor key="info" color="rgb(217,198,244)"/>
+                <dmcolor key="success" color="#198754"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="#212529"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family="BioRhyme" text_weight="" text_color="" text_spacing="" text_effect="" text_italic="" text_smallcaps="" text_uppercase="" headings_family="DM Sans" headings_weight="" headings_color="" headings_spacing="" headings_effect="" headings_italic="" headings_smallcaps="" headings_uppercase=""></dmdesignskill>
+            <dmdesignskill skill="headings" h1_family="Cormorant Garamond" h1_weight="" h1_color="" h1_spacing="" h1_effect="" h1_italic="" h1_smallcaps="" h1_uppercase="" h2_family="Cormorant Garamond" h2_weight="" h2_color="" h2_spacing="" h2_effect="" h2_italic="" h2_smallcaps="" h2_uppercase=""></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true" image="https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwyMDkyMnwwfDF8c2VhcmNofDI2fHx3YWxscGFwZXJ8ZW58MHx8fHwxNjI0OTM0MTIx&ixlib=rb-1.2.1q=85&fm=jpg&crop=faces&cs=srgb&w=1200&fit=max"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" gradients="" responsive_fonts="1" roundness="3" buttonRoundness="4" shadows="4"></dmdesignskill>
+        </dmdesign>
+        <dmdesign active>
+            <dmdesignskill skill="bs5.colors">
+                <dmcolor key="primary" color="#0d6efd"/>
+                <dmcolor key="secondary" color="#6c757d"/>
+                <dmcolor key="info" color="#0dcaf0"/>
+                <dmcolor key="success" color="#198754"/>
+                <dmcolor key="warning" color="#ffc107"/>
+                <dmcolor key="danger" color="#dc3545"/>
+                <dmcolor key="white" color="white"/>
+                <dmcolor key="light" color="#f8f9fa"/>
+                <dmcolor key="dark" color="#212529"/>
+            </dmdesignskill>
+            <dmdesignskill skill="fonts" text_family></dmdesignskill>
+            <dmdesignskill skill="headings" h3_family></dmdesignskill>
+            <dmdesignskill skill="background" image_for_colors="true"></dmdesignskill>
+            <dmdesignskill skill="bootstrap" sizer="0" roundness="2"></dmdesignskill>
+        </dmdesign>
+    </dmdesigns>
+    <dmlocked bs5-colors-primary="false" bs5-colors-secondary="false" bs5-colors-info="false" bs5-colors-success="true" bs5-colors-warning="true" bs5-colors-danger="true" bs5-colors-white="true" bs5-colors-light="true" bs5-colors-dark="true"></dmlocked>
+</project>
