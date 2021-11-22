@@ -13,16 +13,14 @@
     border-radius: 4px;
 }
 
-@media (max-width:575px) {
-    .container {
-        position: relative;
-        padding: 0 20px;
-    }
+.container {
+    position: relative;
+    padding: 0 20px;
 }
 
 .container .card {
     position: relative;
-    width: auto;
+    width: 320px;
     height: 450px;
     border-radius: 20px;
     background: linear-gradient(315deg, #f0ff02, #e400ff);
@@ -127,6 +125,7 @@
 
 /* Shoe Size */
 .container .card .contentBx .size,
+
 .container .card .contentBx .color {
     display: flex;
     justify-content: center;
@@ -150,6 +149,7 @@
 }
 
 .container .card .contentBx .size h3,
+
 .container .card .contentBx .color h3 {
     color: #fff;
     font-weight: 300;
