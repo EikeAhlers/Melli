@@ -550,13 +550,8 @@ section {
 /* --------------------------------------------------------------
 # Portfolio
 -------------------------------------------------------------- */
-@media (max-width:575px) {
-    .portfolio .portfolio-item {
-        margin-bottom: 30px;
-        padding-right: 0;
-        padding-left: 0;
-        zoom: 0.5;
-    }
+.portfolio .portfolio-item {
+    margin-bottom: 30px;
 }
 
 .portfolio #portfolio-flters {
