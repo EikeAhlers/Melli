@@ -68,15 +68,15 @@
 }
 
 .container .asics:after {
-    content: "Cup";
+    content: "Asics";
 }
 
 .container .adidas:after {
-    content: "Kuchen";
+    content: "Adidas";
 }
 
 .container .new-balance:after {
-    content: "Waffeln";
+    content: "new-balance";
 }
 
 .container .card .imgBx {
@@ -125,8 +125,7 @@
 
 /* Shoe Size */
 .container .card .contentBx .size,
-
-.container .card .contentBx .color {
+.container .card .contentBx .color {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,8 +148,7 @@
 }
 
 .container .card .contentBx .size h3,
-
-.container .card .contentBx .color h3 {
+.container .card .contentBx .color h3 {
     color: #fff;
     font-weight: 300;
     font-size: 14px;
